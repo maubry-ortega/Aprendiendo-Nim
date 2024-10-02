@@ -36,10 +36,11 @@
 #?echo x
 #puedo hacer un declarar varias constantes
 #!si queremos especificar donde cierra una declaracion podria ser con el ;
-const
-    x = 1
-    #podemos hacer un comentario aquí
-    y = 2
+#?const
+#?    x = 1
+#?    #podemos hacer un comentario aquí
+#?    y = 2
     z = y + 5; #es posible hacer una operacion dentro de una variable utilizando una variable hecha anteriormente
     
 echo "valor de x: ", x, " valor de y: ", y, ", valor de z: ", z
+
