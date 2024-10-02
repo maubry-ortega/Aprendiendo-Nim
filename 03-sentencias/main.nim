@@ -27,5 +27,19 @@
 #?echo "nuevo valor de x ", x; #imprime "nuevo valor de x 42"
 #?echo "valor de y ", y; #imprime "valor de y 3"
 
-#!utilice procedimientos libres de efectos secundarios si realiza múltiples tareas por que puede tener muchos problemas.
+#!utilice procedimientos libres de efectos secundarios si realiza múltiples tareas por que puede tener problemas cuando sobre escribes un archivo.
 
+#declaracion de constantes estas no se pueden reescribir
+#?const 
+#?    x = "abc"; #la constante x contiene "abc"
+
+#?echo x
+#puedo hacer un declarar varias constantes
+#!si queremos especificar donde cierra una declaracion podria ser con el ;
+const
+    x = 1
+    #podemos hacer un comentario aquí
+    y = 2
+    z = y + 5; #es posible hacer una operacion dentro de una variable utilizando una variable hecha anteriormente
+    
+echo "valor de x: ", x, " valor de y: ", y, ", valor de z: ", z
